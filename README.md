@@ -2,7 +2,7 @@
 
 Claude skills for brains that jump around.
 
-> ✏️ _[Mimi's line goes here]_
+> I made these skills to help me navigate life and Claude. As an unfocused person, which I am, they are useful for anyone who struggles to stay on track, follow the flow of information that Claude spits out at them and needs to be reminded to stay sane in the age of agentic AI dominating our lives.
 
 Three small skills plus one always-on snippet. Plain text, no scripts, no API keys, nothing leaves your chat.
 
