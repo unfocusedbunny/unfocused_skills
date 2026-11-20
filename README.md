@@ -4,13 +4,14 @@ Claude skills for brains that jump around.
 
 > I made these skills to help me navigate life and Claude. As an unfocused person, which I am, they are useful for anyone who struggles to stay on track, follow the flow of information that Claude spits out at them and needs to be reminded to stay sane in the age of agentic AI dominating our lives.
 
-Three small skills plus one always-on snippet. Plain text, no scripts, no API keys, nothing leaves your chat.
+Four small skills plus one always-on snippet. Plain text, no scripts, no API keys, nothing leaves your chat.
 
 | Skill | What it does | How it starts |
 | --- | --- | --- |
 | [idea-catcher](idea-catcher/SKILL.md) | Catches a messy idea dump, sorts it into bins, gives each idea an honest take and one tiny next step. Comes with the **Bunny Brake**: if 5+ ideas landed this week and none moved, it offers three ways out (25 minutes on one, park the lot, or kill two). | Claude picks it up when you dump ideas |
 | [wait-what](wait-what/SKILL.md) | You got lost. Claude re-pitches its last message: one line of context, plain words, max three bullets, your to-do last. | You type `/wait-what` |
 | [off-track-alert](off-track-alert/SKILL.md) | One chat, one job. One off-topic question is fine. Ask about it a second time and Claude suggests a new chat, with a 3-line note to paste there. "Stay here" turns it off. | Claude picks it up when a chat drifts |
+| [if-i-were-you](if-i-were-you/SKILL.md) | Stuck on where to start? Claude picks 1-3 things it would do today in your place, at least one under 20 minutes. First time, it asks who you are and what you're working towards (or you upload something that explains it). | You ask "what would you do today if you were me?" |
 
 ## Install
 
@@ -33,6 +34,7 @@ Skills only load when Claude thinks the moment fits, so the off-track alert and 
 ## Make it yours
 
 - **idea-catcher bins:** tell Claude your own bins (or put them in your preferences) and it uses those instead of the defaults.
+- **if-i-were-you:** the picks are only as good as what Claude knows about you. Let it save your answers to memory (or paste them into your preferences) so it skips the questions next time.
 - **Bunny Brake:** it needs an idea pile with dates to count. Say "save it" when ideas land and it keeps one in Claude's memory or a note you name. No pile, no brake.
 
 ## Status
@@ -41,7 +43,7 @@ Fresh. I'm testing these on myself first, so expect changes.
 
 ## Who made what
 
-Made by Mimi ([@unfocusedbunny](https://github.com/unfocusedbunny)) with Claude. The ideas, rules and decisions are mine: what each skill is for, when it fires, the two-strike rule, the Bunny Brake. Claude helped draft the skill files and name the Bunny Brake.
+Made by Mimi ([@unfocusedbunny](https://github.com/unfocusedbunny)) with Claude. The ideas, rules and decisions are mine: what each skill is for, when it fires, the two-strike rule, the Bunny Brake, starting "if I were you" with who you are and what you're after. Claude helped draft the skill files and name the Bunny Brake.
 
 `wait-what` is adapted from Matt Pocock's [`wait-what`](https://github.com/mattpocock/skills) (MIT). His re-pitches for developers in Simplified Technical English; mine is for people who just got lost. His licence is kept in that folder.
 
